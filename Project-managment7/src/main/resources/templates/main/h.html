@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+	<head th:replace="layouts :: header"></head>
+
+<body>
+
+<table>
+			<tr th:each="aEmployee : ${employeesList}">
+									<td th:text="${aEmployee.firstName}"/>
+									<td th:text="${aEmployee.lastName}"/>
+									<td th:text="${aEmployee.email}"/>
+									<td>
+			</td></tr>
+</table>
+
+
+
+
+</body>
+</html>
