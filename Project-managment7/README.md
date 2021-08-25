@@ -12,4 +12,6 @@ A Spring MVC web application for project management. The application backend is 
 ## Screenshots
 
 ![Screenshot](old1.JPG)
+![Screenshot](old2.JPG)
+![Screenshot](old3.JPG)
   
